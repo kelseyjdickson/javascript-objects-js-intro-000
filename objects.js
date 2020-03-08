@@ -4,7 +4,7 @@ let playlist = {
 }
 
 function updatePlaylist(playList,artist,song){
-  playList.artist = song;
+  playList[artist] = song;
 
    return playlist;
 }
